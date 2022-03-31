@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TNynhvs4fWwOVDtiaT1KNAZws/LbgP+qMLkD0pzzr5yDDajJjBQR+WuPocMrHrNGwWjl6FJGrP63yPj7md4YcQ==",
+  "dgSpecHash": "4EmVDx5qZtw+elZXbVOUtSBG+VPBEQxNt+YGGpmPk9JM0sgzC00RjCwEoc28Z3UY8bIvc8phN4i/w5geb0/m2Q==",
   "success": true,
   "projectFilePath": "F:\\works\\C#\\gimme_oil\\gimme_oil.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alex\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
