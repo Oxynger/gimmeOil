@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace gimme_oil
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
 
-        public Form1()
+        public MainForm()
         {
             Console.Write("some");
 
@@ -53,6 +53,11 @@ namespace gimme_oil
         private void отчетыToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // this.toolStripMenuItem2.Text = "112";
+        }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
