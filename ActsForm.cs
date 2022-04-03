@@ -17,14 +17,18 @@ namespace gimme_oil
             InitializeComponent();
         }
 
-        private void toolStripButton2_Click(object sender, EventArgs e)
+        private void UpdateRecord_Click(object sender, EventArgs e)
         {
-
+            // TODO: implement create table handler
+            DynamicUpdateForm updateForm = new DynamicUpdateForm();
+            updateForm.Show();
         }
 
-        private void CreateOrder_Click(object sender, EventArgs e)
+        private void CreateRecord_Click(object sender, EventArgs e)
         {
-
+            // TODO: implement create table handler
+            DynamicCreateForm createForm = new DynamicCreateForm();
+            createForm.Show();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -32,9 +36,11 @@ namespace gimme_oil
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void DeleteRecord_Click(object sender, EventArgs e)
         {
-
+            // TODO: implement create table handler
+            DynamicDeleteForm deleteForm = new DynamicDeleteForm();
+            deleteForm.Show();
         }
     }
 }

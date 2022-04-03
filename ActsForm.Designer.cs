@@ -64,7 +64,7 @@
             this.CreateRecord.Size = new System.Drawing.Size(29, 24);
             this.CreateRecord.Text = "Создать запись";
             this.CreateRecord.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.CreateRecord.Click += new System.EventHandler(this.CreateOrder_Click);
+            this.CreateRecord.Click += new System.EventHandler(this.CreateRecord_Click);
             // 
             // UpdateRecord
             // 
@@ -74,7 +74,7 @@
             this.UpdateRecord.Name = "UpdateRecord";
             this.UpdateRecord.Size = new System.Drawing.Size(29, 24);
             this.UpdateRecord.Text = "Редактирование записи";
-            this.UpdateRecord.Click += new System.EventHandler(this.toolStripButton2_Click);
+            this.UpdateRecord.Click += new System.EventHandler(this.UpdateRecord_Click);
             // 
             // DeleteRecord
             // 
@@ -84,6 +84,7 @@
             this.DeleteRecord.Name = "DeleteRecord";
             this.DeleteRecord.Size = new System.Drawing.Size(29, 24);
             this.DeleteRecord.Text = "Удалить запись";
+            this.DeleteRecord.Click += new System.EventHandler(this.DeleteRecord_Click);
             // 
             // dataGridView1
             // 
@@ -121,7 +122,6 @@
             this.showRailwayTable.TabIndex = 5;
             this.showRailwayTable.Text = "Ж/Д";
             this.showRailwayTable.UseVisualStyleBackColor = true;
-            this.showRailwayTable.Click += new System.EventHandler(this.button3_Click);
             // 
             // monthCalendar1
             // 
