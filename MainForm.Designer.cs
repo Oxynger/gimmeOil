@@ -82,7 +82,6 @@ namespace gimme_oil
             this.DBStatus.Name = "DBStatus";
             this.DBStatus.Size = new System.Drawing.Size(146, 20);
             this.DBStatus.Text = "Бд не подключенна";
-            this.DBStatus.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
             // 
             // toolStripStatusLabel3
             // 
@@ -119,6 +118,8 @@ namespace gimme_oil
             this.assigmentsToolStripButton.Name = "assigmentsToolStripButton";
             this.assigmentsToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.assigmentsToolStripButton.Text = "Маршрутные поручения";
+            this.actsToolStripButton.Click += new System.EventHandler(this.assigmentsToolStripButton_Click);
+
             // 
             // MainForm
             // 
