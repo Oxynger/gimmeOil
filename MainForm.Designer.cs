@@ -118,7 +118,7 @@ namespace gimme_oil
             this.assigmentsToolStripButton.Name = "assigmentsToolStripButton";
             this.assigmentsToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.assigmentsToolStripButton.Text = "Маршрутные поручения";
-            this.actsToolStripButton.Click += new System.EventHandler(this.assigmentsToolStripButton_Click);
+            this.assigmentsToolStripButton.Click += new System.EventHandler(this.assigmentsToolStripButton_Click);
 
             // 
             // MainForm

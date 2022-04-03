@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace gimme_oil
 {
-    public partial class ActsForm : Form
+    public partial class AssigmentsFrom : Form
     {
-        public ActsForm()
+        public AssigmentsFrom()
         {
             InitializeComponent();
         }
@@ -30,12 +30,13 @@ namespace gimme_oil
             DynamicCreateForm createForm = new DynamicCreateForm();
             createForm.Show();
         }
-        
+
         private void DeleteRecord_Click(object sender, EventArgs e)
         {
             // TODO: implement create table handler
             DynamicDeleteForm deleteForm = new DynamicDeleteForm();
             deleteForm.Show();
         }
+
     }
 }
