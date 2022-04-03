@@ -59,5 +59,11 @@ namespace gimme_oil
         {
 
         }
+
+        private void actsToolStripButton_Click(object sender, EventArgs e)
+        {
+            ActsForm newActsFrom = new ActsForm();
+            newActsFrom.Show();
+        }
     }
 }

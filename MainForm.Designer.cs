@@ -109,6 +109,7 @@ namespace gimme_oil
             this.actsToolStripButton.Name = "actsToolStripButton";
             this.actsToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.actsToolStripButton.Text = "Акты приема-сдачи";
+            this.actsToolStripButton.Click += new System.EventHandler(this.actsToolStripButton_Click);
             // 
             // assigmentsToolStripButton
             // 
@@ -119,7 +120,7 @@ namespace gimme_oil
             this.assigmentsToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.assigmentsToolStripButton.Text = "Маршрутные поручения";
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,8 +129,8 @@ namespace gimme_oil
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainForm";
+            this.Text = "Приложение";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
